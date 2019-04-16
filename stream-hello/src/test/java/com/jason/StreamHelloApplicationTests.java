@@ -13,7 +13,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @EnableBinding(value = {StreamHelloApplicationTests.SinkSender.class})
 @SpringBootTest
-
 public class StreamHelloApplicationTests {
 
 	@Autowired
